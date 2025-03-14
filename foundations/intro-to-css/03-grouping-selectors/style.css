@@ -1,0 +1,14 @@
+.clickBtns{
+    font-size: 40px;
+    border: 2px solid black;
+    font-family: Helvetica,'Times New Roman', sans-serif;
+    
+}
+#btn-click{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+#btn-donot-click{
+    background-color: yellow;
+}
