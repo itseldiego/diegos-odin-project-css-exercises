@@ -5,11 +5,51 @@ body {
 img {
   width: 100px;
   height: 100px;
+
 }
 
+.text{
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: center; */
+  margin: 10px;
+  text-align: center;
+}
 .title {
   font-size: 36px;
   font-weight: 900;
+  display: flex;
+  justify-content: center;
+  margin: 52px;
+
+}
+
+.image-div{
+
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+  /* border: 1px solid black;  for debuggin purposes */
+  
+
+}
+
+.images-container{
+  display: flex;
+  justify-content: center;
+  
+  flex-wrap: wrap;
+  flex-basis: 200px;
+
+  /* border: 1px solid red; for debuggin */
+
+}
+
+.main-container{
+  display: block;
+  
+  align-content: center;
+
 }
 
 /* do not edit this footer */
